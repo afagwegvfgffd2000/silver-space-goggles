@@ -1,0 +1,16 @@
+#Chance for an item to be named in a modified loot table
+#Range: 0 ~ 100
+percentage = 50
+#Used for the custom name generator name classes.
+"name classes" = ["naming.sniffsweapons.class.king", "naming.sniffsweapons.class.emperor", "naming.sniffsweapons.class.prince", "naming.sniffsweapons.class.lord", "naming.sniffsweapons.class.apprentice", "naming.sniffsweapons.class.knight", "naming.sniffsweapons.class.god"]
+#Used for the custom name generator stories.
+"name stories" = ["naming.sniffsweapons.story.long_lost", "naming.sniffsweapons.story.forbidden", "naming.sniffsweapons.story.cursed", "naming.sniffsweapons.story.banished", "naming.sniffsweapons.story.almighty", "naming.sniffsweapons.story.heroic", "naming.sniffsweapons.story.legendary", "naming.sniffsweapons.story.powerful", "naming.sniffsweapons.story.weak", "naming.sniffsweapons.story.wacky", "naming.sniffsweapons.story.hellish", "naming.sniffsweapons.story.godly", "naming.sniffsweapons.story.heavy", "naming.sniffsweapons.story.wrought"]
+#Used for the custom name generator names.
+names = ["entity.minecraft.piglin", "naming.sniffsweapons.name.bob", "entity.minecraft.pillager", "entity.minecraft.villager", "naming.sniffsweapons.name.chotmas", "naming.sniffsweapons.name.rastora", "naming.sniffsweapons.name.hartokor", "naming.sniffsweapons.name.feskhi", "naming.sniffsweapons.name.riskhopeph", "naming.sniffsweapons.name.viscosjev", "naming.sniffsweapons.name.bacripps", "naming.sniffsweapons.name.felips", "naming.sniffsweapons.name.hank", "naming.sniffsweapons.name.steven", "naming.sniffsweapons.name.willem", "naming.sniffsweapons.name.william", "naming.sniffsweapons.name.john", "naming.sniffsweapons.name.robin", "naming.sniffsweapons.name.oliver", "naming.sniffsweapons.name.ragnar", "naming.sniffsweapons.name.igor", "naming.sniffsweapons.name.norman", "naming.sniffsweapons.name.thoren", "naming.sniffsweapons.name.agar", "naming.sniffsweapons.name.heimdall", "naming.sniffsweapons.name.olin", "naming.sniffsweapons.name.nhor", "naming.sniffsweapons.name.meinir"]
+#Used for the custom name generator second names.
+"second names" = ["naming.sniffsweapons.name.the_annihilator", "naming.sniffsweapons.name.the_wonderful", "naming.sniffsweapons.name.the_great", "naming.sniffsweapons.name.the_beauty", "naming.sniffsweapons.name.the_unholy", "naming.sniffsweapons.name.the_sophisticated", "naming.sniffsweapons.name.the_holy", "naming.sniffsweapons.name.the_grand", "naming.sniffsweapons.name.the_magnificent", "naming.sniffsweapons.name.the_majestic", "naming.sniffsweapons.name.the_blight", "naming.sniffsweapons.name.the_great_spatula", "naming.sniffsweapons.name.alexander", "naming.sniffsweapons.name.jobs", "naming.sniffsweapons.name.jansen", "naming.sniffsweapons.name.spentova", "naming.sniffsweapons.name.achard", "naming.sniffsweapons.name.mestofa", "naming.sniffsweapons.name.reimington", "naming.sniffsweapons.name.ironbash", "naming.sniffsweapons.name.longwood", "naming.sniffsweapons.name.highlands", "naming.sniffsweapons.name.briklestorm", "naming.sniffsweapons.name.snatfitcht"]
+#Used for the custom name generator count.
+count = ["enchantment.level.1", "enchantment.level.2", "enchantment.level.3", "enchantment.level.4", "enchantment.level.5", ""]
+#Gives almost every weapon custom animations.
+"enable weapon animations" = true
+

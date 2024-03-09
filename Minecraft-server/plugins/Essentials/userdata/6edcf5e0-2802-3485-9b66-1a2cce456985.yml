@@ -1,0 +1,71 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1709762479147
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709762753385
+  login: 1709758722609
+money: '0'
+logoutlocation:
+  world: 8c0398d2-d544-4b60-989d-88599094847c
+  world-name: DIM-1
+  x: -1089.1145591063819
+  y: 89.80212244021484
+  z: -1532.4524292777348
+  yaw: 76.62548065185547
+  pitch: 10.742833137512207
+last-account-name: xxZeyx
+lastlocation:
+  world: 956b6f7c-a3eb-4cfd-9fc7-2f47a5904767
+  world-name: world
+  x: -609.2394504212529
+  y: 70.0
+  z: -12.552121710221734
+  yaw: 137.05886840820312
+  pitch: 25.18367576599121
+homes:
+  a:
+    world: 956b6f7c-a3eb-4cfd-9fc7-2f47a5904767
+    world-name: world
+    x: 7567.351444228126
+    y: 64.0
+    z: 7634.989617084645
+    yaw: -179.33847045898438
+    pitch: 12.04391860961914
+  fortaleza:
+    world: 8c0398d2-d544-4b60-989d-88599094847c
+    world-name: DIM-1
+    x: 971.0245099284334
+    y: 67.0
+    z: 1033.95479864134
+    yaw: -49.33080291748047
+    pitch: 6.5038347244262695
+  goblin:
+    world: 8c0398d2-d544-4b60-989d-88599094847c
+    world-name: DIM-1
+    x: 416.3686171893225
+    y: 69.0
+    z: 1017.5623756079453
+    yaw: -5.024566650390625
+    pitch: 40.378570556640625
+  dragon:
+    world: 956b6f7c-a3eb-4cfd-9fc7-2f47a5904767
+    world-name: world
+    x: 7901.31602692118
+    y: 73.0
+    z: 7433.644226196295
+    yaw: 105.17919921875
+    pitch: 18.165082931518555

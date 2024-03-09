@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1709420853375
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709874557829
+  login: 1709924869921
+money: '0'
+last-account-name: estevs15
+logoutlocation:
+  world: 956b6f7c-a3eb-4cfd-9fc7-2f47a5904767
+  world-name: world
+  x: 7566.7177593219385
+  y: 64.0
+  z: 7631.506281728937
+  yaw: 64.552001953125
+  pitch: 10.815114974975586
+lastlocation:
+  world: 956b6f7c-a3eb-4cfd-9fc7-2f47a5904767
+  world-name: world
+  x: 7561.5
+  y: 64.0
+  z: 7633.5
+  yaw: -2.1751708984375
+  pitch: 8.941914558410645

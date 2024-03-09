@@ -1,0 +1,1300 @@
+[19:04:42] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[19:04:43] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[19:04:48] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[19:04:48] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23111!/ Service=ModLauncher Env=SERVER
+[19:04:49] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[19:04:49] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: cumulus_menus. Using Mod File: /workspaces/codespaces-jupyter/Minecraft-server/mods/cumulus_menus-1.20.1-1.0.0-neoforge.jar
+[19:04:49] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/codespaces-jupyter/Minecraft-server/mods/curios-forge-5.7.0+1.20.1 (1).jar
+[19:04:49] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 19 dependencies adding them to mods collection
+[19:04:52] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[19:04:52] [main/ERROR] [mixin]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[19:04:52] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[19:04:52] [main/WARN] [mixin]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:04:52] [main/WARN] [mixin]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:04:52] [main/WARN] [mixin]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:04:52] [main/WARN] [mixin]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:04:52] [main/WARN] [mixin]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:04:52] [main/INFO] [Puzzles Lib]: Loading 99 mods:
+	- ad_astra 1.15.18
+	- additionalstructures 4.2.1
+	- advancementplaques 1.5.1
+	- aether 1.20.1-1.2.0-neoforge
+	- alexscaves 1.0.9
+	- alexsmobs 1.22.7
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.1.13
+	- argonauts 1.0.8
+	- athena 3.1.1
+	- awesomedungeonnether 3.1.1
+	- barteringstation 8.0.0
+	- bendylib 4.0.0
+	- betterdeserttemples 1.20-Forge-3.0.1
+	- betterdungeons 1.20-Forge-4.0.1
+	- betterendisland 1.20-Forge-2.0.2
+	- betterjungletemples 1.20-Forge-2.0.1
+	- bettermineshafts 1.20-Forge-4.0.1
+	- betteroceanmonuments 1.20-Forge-3.0.1
+	- betterstrongholds 1.20-Forge-4.0.1
+	- betterwitchhuts 1.20-Forge-3.0.1
+	- born_in_chaos_v1 1.0.0
+	- botarium 2.3.3
+	- brutalbosses 1.20.1-6.6
+	- cadmus 1.0.7
+	- caelus 3.1.0+1.20
+	- cataclysm 1.0
+	- catalogue 1.8.0
+	- cave_dweller 1.7.0
+	- cfm 7.0.0-pre36
+	- cgm 1.4.12+Forge+1.20.1}
+	- chiselsandbits 1.4.147
+	- citadel 2.5.3
+	- cloth_config 11.1.118
+	- coroutil 1.20.1-1.3.6
+	- creativecore 2.11.24
+	- cumulus_menus 1.20.1-1.0.0-neoforge
+	- cupboard 1.20.1-2.3
+	- curios 5.7.0+1.20.1
+	- deeperdarker 1.2.1
+	- dungeoncrawl 2.3.14
+	- dungeons_arise 2.1.58-1.20.x
+	- dungeons_plus 1.5.0
+	- endermanoverhaul 1.0.4
+	- endertrigon 1.0
+	- endrem 5.2.3-R-1.20.1
+	- forge 47.2.20
+	- forgeconfigscreens 8.0.2
+	- framework 0.6.16
+	- geckolib 4.4.2
+	- goblintraders 1.9.3
+	- iceandfire 2.1.13-1.20.1-beta-4
+	- iceberg 1.1.18
+	- incendium 5.3.4
+	- industrialforegoing 3.5.15
+	- insanelib 1.12.1
+	- inventoryhud 3.4.18
+	- jei 15.3.0.4
+	- journeymap 5.9.18
+	- libraryferret 4.0.0
+	- lostfeatures 0.7.2.2.1
+	- man 1.0.0
+	- mes 1.3-1.20-forge
+	- minecraft 1.20.1
+	- mixinextras 0.2.0-beta.9
+	- mohist 1.20.1
+	- mutantmonsters 8.0.7
+	- nitrogen_internals 1.20.1-1.0.2-neoforge
+	- patchouli 1.20.1-84-FORGE
+	- playeranimator 1.0.2-rc1+1.20
+	- prism 1.0.5
+	- progressivebosses 3.9.5-mc1.20.1
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.16
+	- reeses_sodium_options 1.0.4
+	- repurposed_structures 7.1.13+1.20.1-forge
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.23
+	- scena 1.0.103
+	- shimmer 1.20.1-0.2.4
+	- sniffsweapons 1.1.1-1.20.1
+	- stalwart_dungeons 1.2.8
+	- structure_gel 2.16.0
+	- textrues_embeddium_options 0.1.5+mc1.20.1
+	- titanium 3.8.27
+	- tombstone 8.6.3
+	- travelersbackpack 9.1.12
+	- twilightforest 4.3.2145
+	- valhelsia_core 1.1.1
+	- valhelsia_furniture 1.1.2
+	- valhelsia_structures 1.20.1-1.1.1
+	- visualworkbench 8.0.0
+	- voicechat 1.20.1-2.4.32
+	- voidscape 1.20.1-1.5.348
+	- watching 1.9.2
+	- watut 1.20.1-1.0.13
+	- yet_another_config_lib_v3 3.2.2+1.20
+	- yungsapi 1.20-Forge-4.0.1
+	- yungsextras 1.20-Forge-4.0.1
+[19:04:52] [main/WARN] [mixin]: Reference map 'chiselsandbits.refmap.json' for chisels-and-bits.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:04:55] [main/WARN] [mixin]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[19:04:55] [main/WARN] [mixin]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[19:04:55] [main/WARN] [mixin]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
+[19:04:55] [main/WARN] [mixin]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
+[19:04:55] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[19:05:02] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+java.lang.IllegalStateException: Field f_47437_ is not private and an instance field
+	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:260) ~[coremods-5.0.1.jar:?]
+	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$91$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.3.jar:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.3.jar:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.3.jar:?]
+	at org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.3.jar:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:18) ~[coremods-5.0.1.jar:5.0.1+15+master.dc5a2922]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:18) ~[coremods-5.0.1.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:10) ~[coremods-5.0.1.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) ~[coremods-5.0.1.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:288) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100) ~[modlauncher-10.0.9.jar:?]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forType(ClassInfo.java:2059) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forDescriptor(ClassInfo.java:2038) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformMethod(MixinPreProcessorStandard.java:752) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transform(MixinPreProcessorStandard.java:739) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:310) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:280) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:292) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:121) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:257) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:267) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:257) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:144) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.<clinit>(ChunkStatus.java:38) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257540_(BuiltInRegistries.java:200) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258029_(BuiltInRegistries.java:448) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258037_(BuiltInRegistries.java:462) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[?:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257453_(BuiltInRegistries.java:461) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257498_(BuiltInRegistries.java:455) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.Main.main(Main.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[19:05:03] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+java.lang.IllegalStateException: Field f_47437_ is not private and an instance field
+	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:260) ~[coremods-5.0.1.jar:?]
+	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$91$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.3.jar:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.3.jar:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.3.jar:?]
+	at org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.3.jar:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:18) ~[coremods-5.0.1.jar:5.0.1+15+master.dc5a2922]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:18) ~[coremods-5.0.1.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:10) ~[coremods-5.0.1.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) ~[coremods-5.0.1.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:121) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:257) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:267) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:257) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:144) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraft.world.level.biome.FixedBiomeSource.<clinit>(FixedBiomeSource.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.biome.BiomeSources.m_220586_(BiomeSources.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258029_(BuiltInRegistries.java:448) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258037_(BuiltInRegistries.java:462) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[?:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257453_(BuiltInRegistries.java:461) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257498_(BuiltInRegistries.java:455) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.Main.main(Main.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[19:05:06] [modloading-worker-0/INFO] [scena-forge]: Initialized scena-forge
+[19:05:06] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.TagsFeature
+[19:05:06] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.FixFeature
+[19:05:06] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.AEC3DFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.RewardFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.ResistancesFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.MiscFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.MinionFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.HealthFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.DifficultyFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.AttackFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.RewardFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.ResistancesFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.MinionFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.HealthFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.BaseFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.AttackFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.RewardFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.ResistancesFeature
+[19:05:07] [modloading-worker-0/WARN] [mixin]: @Final field f_31201_:Lorg/slf4j/Logger; in progressivebosses.mixins.json:DragonChargePlayerPhaseMixin should be final
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.MinionFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.LarvaFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.HealthFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.DifficultyFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.CrystalFeature
+[19:05:07] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.AttackFeature
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Scanning classes for industrialforegoing
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Found FeaturePluginInstance for class PatchouliPlugin for plugin patchouli
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Constructed class PatchouliPlugin for plugin patchouli for mod industrialforegoing
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Executing phase CONSTRUCTION for plugin class PatchouliPlugin
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Executing phase PRE_INIT for plugin class PatchouliPlugin
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Executing phase INIT for plugin class PatchouliPlugin
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Executing phase INIT for plugin class CuriosPlugin
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Executing phase POST_INIT for plugin class PatchouliPlugin
+[19:05:07] [modloading-worker-0/INFO] [PluginManager]: Executing phase POST_INIT for plugin class CuriosPlugin
+[19:05:08] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus]: Disabling Cumulus as it is on server.
+[19:05:08] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[19:05:08] [modloading-worker-0/INFO] [com.cupboard.Cupboard]: Loaded config for: cupboard.json
+[19:05:08] [modloading-worker-0/INFO] [voidscape]: Starting Donator Handler
+[19:05:08] [Voidscape Donator Loader/INFO] [voidscape]: Loading donor data
+[19:05:08] [Voidscape Donator Loader/ERROR] [voidscape]: Could not load donor data
+[19:05:09] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for mutantmonsters:main
+[19:05:09] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for visualworkbench:main
+[19:05:09] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialize mod Library Ferret
+[19:05:09] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialized mod Library Ferret
+[19:05:09] [modloading-worker-0/INFO] [Dungeon Crawl]: Here we go! Launching Dungeon Crawl 2.3.14...
+[19:05:09] [modloading-worker-0/INFO] [coroutil]: forge loader environment detected
+[19:05:09] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[19:05:09] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[19:05:09] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.20 Initialized
+[19:05:09] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.20 Initialized
+[19:05:09] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[19:05:09] [modloading-worker-0/INFO] [PluginManager]: Scanning classes for titanium
+[19:05:09] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for barteringstation:main
+[19:05:09] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.Forge]: Initialized Chisels&Bits - Forge
+[19:05:09] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[19:05:09] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes]: Loaded block entity configuration.
+[19:05:09] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks]: Loaded block configuration.
+[19:05:09] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups]: Loaded chisel mode group configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes]: Loaded chisel mode configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes]: Loaded container type configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs]: Loaded item group configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems]: Loaded item configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys]: Loaded metadata key configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties]: Loaded model property configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation]: Loaded modification operation configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups]: Loaded modification operation group configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes]: Loaded pattern placement type configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers]: Loaded recipe serializer configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags]: Loaded tag configuration.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes]: Registering recipe types.
+[19:05:10] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModEventHandler]: Registering event handlers
+[19:05:16] [main/INFO] [ModdingLegacy/StructureGel]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[19:05:16] [main/INFO] [ModdingLegacy/StructureGel]: [structure_gel] Registering data for structure_gel:data_handler_type
+[19:05:16] [main/INFO] [ModdingLegacy/StructureGel]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[19:05:16] [main/INFO] [ModdingLegacy/StructureGel]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[19:05:16] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file /workspaces/codespaces-jupyter/Minecraft-server/config/sniffsweapons-common.toml is not correct. Correcting
+[19:05:16] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key name classes was corrected from [naming.sniffsweapons.class.king, naming.sniffsweapons.class.emperor, naming.sniffsweapons.class.prince, naming.sniffsweapons.class.lord, naming.sniffsweapons.class.apprentice, naming.sniffsweapons.class.knight, naming.sniffsweapons.class.god] to its default, [naming.sniffsweapons.class.king, naming.sniffsweapons.class.emperor, naming.sniffsweapons.class.prince, naming.sniffsweapons.class.lord, naming.sniffsweapons.class.apprentice, naming.sniffsweapons.class.knight, naming.sniffsweapons.class.god]. 
+[19:05:16] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key name stories was corrected from [naming.sniffsweapons.story.long_lost, naming.sniffsweapons.story.forbidden, naming.sniffsweapons.story.cursed, naming.sniffsweapons.story.banished, naming.sniffsweapons.story.almighty, naming.sniffsweapons.story.heroic, naming.sniffsweapons.story.legendary, naming.sniffsweapons.story.powerful, naming.sniffsweapons.story.weak, naming.sniffsweapons.story.wacky, naming.sniffsweapons.story.hellish, naming.sniffsweapons.story.godly, naming.sniffsweapons.story.heavy, naming.sniffsweapons.story.wrought] to its default, [naming.sniffsweapons.story.long_lost, naming.sniffsweapons.story.forbidden, naming.sniffsweapons.story.cursed, naming.sniffsweapons.story.banished, naming.sniffsweapons.story.almighty, naming.sniffsweapons.story.heroic, naming.sniffsweapons.story.legendary, naming.sniffsweapons.story.powerful, naming.sniffsweapons.story.weak, naming.sniffsweapons.story.wacky, naming.sniffsweapons.story.hellish, naming.sniffsweapons.story.godly, naming.sniffsweapons.story.heavy, naming.sniffsweapons.story.wrought]. 
+[19:05:16] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key names was corrected from [entity.minecraft.piglin, naming.sniffsweapons.name.bob, entity.minecraft.pillager, entity.minecraft.villager, naming.sniffsweapons.name.chotmas, naming.sniffsweapons.name.rastora, naming.sniffsweapons.name.hartokor, naming.sniffsweapons.name.feskhi, naming.sniffsweapons.name.riskhopeph, naming.sniffsweapons.name.viscosjev, naming.sniffsweapons.name.bacripps, naming.sniffsweapons.name.felips, naming.sniffsweapons.name.hank, naming.sniffsweapons.name.steven, naming.sniffsweapons.name.willem, naming.sniffsweapons.name.william, naming.sniffsweapons.name.john, naming.sniffsweapons.name.robin, naming.sniffsweapons.name.oliver, naming.sniffsweapons.name.ragnar, naming.sniffsweapons.name.igor, naming.sniffsweapons.name.norman, naming.sniffsweapons.name.thoren, naming.sniffsweapons.name.agar, naming.sniffsweapons.name.heimdall, naming.sniffsweapons.name.olin, naming.sniffsweapons.name.nhor, naming.sniffsweapons.name.meinir] to its default, [entity.minecraft.piglin, naming.sniffsweapons.name.bob, entity.minecraft.pillager, entity.minecraft.villager, naming.sniffsweapons.name.chotmas, naming.sniffsweapons.name.rastora, naming.sniffsweapons.name.hartokor, naming.sniffsweapons.name.feskhi, naming.sniffsweapons.name.riskhopeph, naming.sniffsweapons.name.viscosjev, naming.sniffsweapons.name.bacripps, naming.sniffsweapons.name.felips, naming.sniffsweapons.name.hank, naming.sniffsweapons.name.steven, naming.sniffsweapons.name.willem, naming.sniffsweapons.name.william, naming.sniffsweapons.name.john, naming.sniffsweapons.name.robin, naming.sniffsweapons.name.oliver, naming.sniffsweapons.name.ragnar, naming.sniffsweapons.name.igor, naming.sniffsweapons.name.norman, naming.sniffsweapons.name.thoren, naming.sniffsweapons.name.agar, naming.sniffsweapons.name.heimdall, naming.sniffsweapons.name.olin, naming.sniffsweapons.name.nhor, naming.sniffsweapons.name.meinir]. 
+[19:05:16] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key second names was corrected from [naming.sniffsweapons.name.the_annihilator, naming.sniffsweapons.name.the_wonderful, naming.sniffsweapons.name.the_great, naming.sniffsweapons.name.the_beauty, naming.sniffsweapons.name.the_unholy, naming.sniffsweapons.name.the_sophisticated, naming.sniffsweapons.name.the_holy, naming.sniffsweapons.name.the_grand, naming.sniffsweapons.name.the_magnificent, naming.sniffsweapons.name.the_majestic, naming.sniffsweapons.name.the_blight, naming.sniffsweapons.name.the_great_spatula, naming.sniffsweapons.name.alexander, naming.sniffsweapons.name.jobs, naming.sniffsweapons.name.jansen, naming.sniffsweapons.name.spentova, naming.sniffsweapons.name.achard, naming.sniffsweapons.name.mestofa, naming.sniffsweapons.name.reimington, naming.sniffsweapons.name.ironbash, naming.sniffsweapons.name.longwood, naming.sniffsweapons.name.highlands, naming.sniffsweapons.name.briklestorm, naming.sniffsweapons.name.snatfitcht] to its default, [naming.sniffsweapons.name.the_annihilator, naming.sniffsweapons.name.the_wonderful, naming.sniffsweapons.name.the_great, naming.sniffsweapons.name.the_beauty, naming.sniffsweapons.name.the_unholy, naming.sniffsweapons.name.the_sophisticated, naming.sniffsweapons.name.the_holy, naming.sniffsweapons.name.the_grand, naming.sniffsweapons.name.the_magnificent, naming.sniffsweapons.name.the_majestic, naming.sniffsweapons.name.the_blight, naming.sniffsweapons.name.the_great_spatula, naming.sniffsweapons.name.alexander, naming.sniffsweapons.name.jobs, naming.sniffsweapons.name.jansen, naming.sniffsweapons.name.spentova, naming.sniffsweapons.name.achard, naming.sniffsweapons.name.mestofa, naming.sniffsweapons.name.reimington, naming.sniffsweapons.name.ironbash, naming.sniffsweapons.name.longwood, naming.sniffsweapons.name.highlands, naming.sniffsweapons.name.briklestorm, naming.sniffsweapons.name.snatfitcht]. 
+[19:05:16] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key count was corrected from [enchantment.level.1, enchantment.level.2, enchantment.level.3, enchantment.level.4, enchantment.level.5, ] to its default, [enchantment.level.1, enchantment.level.2, enchantment.level.3, enchantment.level.4, enchantment.level.5, ]. 
+[19:05:16] [Thread-3/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler]: Configuration file /workspaces/codespaces-jupyter/Minecraft-server/config/sniffsweapons-common.toml is not correct. Correcting
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class PatchouliPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class PatchouliPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[19:05:16] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class PatchouliPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class PatchouliPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class PatchouliPlugin
+[19:05:16] [Thread-3/INFO] [PluginManager]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[19:05:16] [main/INFO] [Puzzles Lib]: Loading common config for mutantmonsters
+[19:05:16] [Thread-3/INFO] [Puzzles Lib]: Reloading common config for mutantmonsters
+[19:05:16] [Thread-3/INFO] [Puzzles Lib]: Reloading common config for mutantmonsters
+[19:05:16] [modloading-worker-0/INFO] [PluginManager]: Executing phase COMMON_SETUP for plugin class PatchouliPlugin
+[19:05:16] [modloading-worker-0/INFO] [PluginManager]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[19:05:17] [modloading-worker-0/INFO] [Dungeon Crawl]: Common Setup
+[19:05:17] [modloading-worker-0/INFO] [voicechat]: [voicechat] Compatibility version 17
+[19:05:17] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init]: From The Fog Loaded Successfully!
+[19:05:17] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses]: brutalbosses mod initialized
+[19:05:17] [modloading-worker-0/INFO] [voicechat]: [voicechat] Loading plugins
+[19:05:17] [modloading-worker-0/INFO] [voicechat]: [voicechat] Loaded 0 plugin(s)
+[19:05:17] [modloading-worker-0/INFO] [voicechat]: [voicechat] Initializing plugins
+[19:05:17] [modloading-worker-0/INFO] [voicechat]: [voicechat] Initialized 0 plugin(s)
+[19:05:17] [main/INFO] [Framework]: Registered synced data key cgm:aiming for minecraft:player
+[19:05:17] [main/INFO] [Framework]: Registered synced data key cgm:reloading for minecraft:player
+[19:05:17] [main/INFO] [Framework]: Registered synced data key cgm:shooting for minecraft:player
+[19:05:17] [main/INFO] [journeymap]: Initializing Packet Registries
+[19:05:17] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[19:05:17] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[19:05:17] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[19:05:17] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[19:05:23] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:05:28] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Structure placement for `awesomedungeonnether:nth_absi_palace/start_pool`: { spacing: 50, separation: 25, salt: 19482856, useValueFromConfiguration: true}
+[19:05:28] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Structure placement for `awesomedungeonnether:nth_accum_quad/start_pool`: { spacing: 50, separation: 25, salt: 28482856, useValueFromConfiguration: true}
+[19:05:28] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Structure placement for `awesomedungeonnether:nth_blaze_tower/start_pool`: { spacing: 50, separation: 25, salt: 37482856, useValueFromConfiguration: true}
+[19:05:28] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Structure placement for `awesomedungeonnether:nth_center_square/start_pool`: { spacing: 50, separation: 25, salt: 46482856, useValueFromConfiguration: true}
+[19:05:28] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Structure placement for `awesomedungeonnether:nth_giant_crimson_tree/start_pool`: { spacing: 50, separation: 25, salt: 55482856, useValueFromConfiguration: true}
+[19:05:28] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Structure placement for `awesomedungeonnether:nth_obsi_house/start_pool`: { spacing: 50, separation: 25, salt: 64482856, useValueFromConfiguration: true}
+[19:05:29] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[19:05:29] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm]: Adding datapack listener altar_of_amethyst_recipes
+[19:05:31] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/yellorite as it's serializer returned null
+[19:05:31] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/fluorite as it's serializer returned null
+[19:05:31] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/cinnabar as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/yellorium as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/yellorite as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/platinum as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:crusher/sand_silicon as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/niter as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/sulfur as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/tetrahedrite as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/aluminum as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/ardite as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/peridot as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/arcane as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/bitumen as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/pyrite as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/ruby as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/tin as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/iridium as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/draconium as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/nickel as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/bauxite as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/sheldonite as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/cinnabar as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/sodalite as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/galena as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/tungsten as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/sapphire as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/osmium as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/lead as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/cobalt as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe industrialforegoing:laser_drill_fluid/oil as it's serializer returned null
+[19:05:32] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 39 recipes
+[19:05:32] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[19:05:32] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 5433 advancements
+[19:05:32] [main/INFO] [twilightforest]: Loaded 9 Stalactite configs!
+[19:05:32] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 19 curio slots
+[19:05:32] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 9 curio entities
+[19:05:32] [main/INFO] [Dungeon Crawl]: Loading data...
+[19:05:32] [main/INFO] [Dungeon Crawl]: Done.
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:drowned
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:iron_golem
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:snow_golem
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:zombie
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:skeleton
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:pillager
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:vex
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:evoker
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:zombie
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:vindicator
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:wither_skeleton
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:wither_skeleton
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:cave_spider
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:zombie
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:husk
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:evoker
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:wandering_trader
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:guardian
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:vindicator
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:shulker
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:zoglin
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:chicken
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:blaze
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:witch
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:phantom
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:mooshroom
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:rabbit
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:piglin_brute
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:ghast
+[19:05:32] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:stray
+[19:05:32] [main/INFO] [insane96mcp.insanelib.InsaneLib]: Reloading InsaneLib JsonFeature Json
+[19:05:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[19:05:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[19:05:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[19:05:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[19:05:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[19:05:37] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[19:05:37] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:05:37] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[19:05:37] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:05:37] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:05:37] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-580 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.20, NeoForge version 47.1.79)
+[19:05:39] [Server thread/INFO] []: Finalizing energy block registration
+[19:05:39] [Server thread/INFO] []: Finalizing fluid block registration
+[19:05:39] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[19:05:39] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[19:05:39] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[19:05:39] [Server thread/INFO] [com.mohistmc.MohistMC]: Hello Plugins!
+[19:05:42] [Server thread/INFO] [com.mohistmc.MohistMC]: [WolfyUtilities] Loading 3 libraries... please wait
+[19:05:42] [Server thread/INFO] [com.mohistmc.MohistMC]: [WolfyUtilities] Loading -1 extra libraries... please wait
+[19:05:42] [Server thread/INFO] [com.mohistmc.MohistMC]: [WolfyUtilities] Found libraries libraries/plugins-lib/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[19:05:42] [Server thread/INFO] [com.mohistmc.MohistMC]: [WolfyUtilities] Found libraries libraries/plugins-lib/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[19:05:42] [Server thread/INFO] [com.mohistmc.MohistMC]: [WolfyUtilities] Loaded libraries libraries/plugins-lib/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[19:05:42] [Server thread/INFO] [com.mohistmc.MohistMC]: [WolfyUtilities] Loaded libraries libraries/plugins-lib/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[19:05:44] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] NMS Version: v1_20_R1
+[19:05:45] [Server thread/INFO] [me.wolfyscript.lib.org.reflections.Reflections]: Reflections took 455 ms to scan 1 urls, producing 905 keys and 3616 values
+[19:05:45] [Server thread/WARN] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Paper not detected! Not using performance improvements.
+[19:05:45] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] NMS Version: v1_20_R1
+[19:05:46] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading LuckPerms v5.4.117
+[19:05:46] [Server thread/INFO] [me.velocity6.adminfun.AdminFun]: [AdminFun] Loading AdminFun v2.7.1
+[19:05:46] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit]: [Chunky] Loading Chunky v1.3.92
+[19:05:46] [Server thread/INFO] [gg.playit.minecraft.PlayitBukkit]: [playit-gg] Loading playit-gg v0.1.4
+[19:05:46] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Loading LoginSecurity v3.3.0
+[19:05:46] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.5
+[19:05:46] [Server thread/INFO] [xyz.joscodes.playerheadsdrop.PlayerHeadDrops]: [PlayerHeadDrops] Loading PlayerHeadsDrop v1.0-SNAPSHOT
+[19:05:46] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Loading Vault v1.7.3-b131
+[19:05:46] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] Loading ConsoleSpamFix v1.10.0
+[19:05:46] [Server thread/INFO] [com.booksaw.betterTeams.Main]: [BetterTeams] Loading BetterTeams v4.8.4
+[19:05:46] [Server thread/INFO] [Minecraft]: [BetterTeams] Checking if the file config.yml is up to date
+[19:05:46] [Server thread/INFO] [Minecraft]: [BetterTeams] File is up to date
+[19:05:46] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Slimefun vRC - 35 (git 5e901972)
+[19:05:46] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Loading Essentials v2.21.0-dev+67-622c814
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Loading WolfyUtilities v4.16.14.1
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register JSON de-/serializers
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register JSON Operators
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register JSON Value Providers
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register CustomItem NBT Checks
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register CustomItem Actions
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register CustomItem Events
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register Particle Animators
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register Particle Shapes
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register Particle Timers
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register Custom Block Data
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register Custom Player Data
+[19:05:46] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register NBT Query Nodes
+[19:05:46] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+67-622c814
+[19:05:46] [Server thread/INFO] [io.github.thebusybiscuit.exoticgarden.ExoticGarden]: [ExoticGarden] Loading ExoticGarden vDEV - 78 (git 7f9a5f63)
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Loading CustomCrafting v4.16.8.5
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] WolfyUtils API: v4.16.14.1
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] CustomCrafting: v4.16.8.5
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Environment   : PROD
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering CustomItem Data
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering Custom Block Data
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering Result Extensions
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering Result Merge Adapters
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering Recipe Conditions
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering Recipe Types
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering Anvil Recipe Tasks
+[19:05:46] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering Type Registries
+[19:05:46] [Server thread/INFO] [pers.xanadu.slimefunrecipe.Main]: [SlimeFunRecipe] Loading SlimeFunRecipe v1.2.0
+[19:05:46] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Enabling LuckPerms v5.4.117
+[19:05:47] [Server thread/INFO] [Console]:         __    
+[19:05:47] [Server thread/INFO] [Console]:   |    |__)   LuckPerms v5.4.117
+[19:05:47] [Server thread/INFO] [Console]:   |___ |      Running on Bukkit - Mohist
+[19:05:47] [Server thread/INFO] [Console]: 
+[19:05:47] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading configuration...
+[19:05:48] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading storage provider... [H2]
+[19:05:51] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading internal permission managers...
+[19:05:51] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Performing initial data load...
+[19:05:51] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Successfully enabled. (took 4995ms)
+[19:05:51] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabling Vault v1.7.3-b131
+[19:05:52] [Server thread/WARN] [net.milkbowl.vault.Vault]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+67-622c814 which is not a depend or softdepend of this plugin.
+[19:05:52] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:05:53] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:05:54] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabled Version 1.7.3-b131
+[19:05:54] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Registered Vault permission & chat hook.
+[19:05:54] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.10.0
+[19:05:54] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] Server version detected: 1.20.1
+[19:05:54] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] Loading the config file...
+[19:05:54] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] Config file loaded!
+[19:05:54] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Enabling WolfyUtilities v4.16.14.1
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Minecraft version: 1.20.1
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] WolfyUtils version: 4.16.14.1
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Environment: PROD
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Loading Plugin integrations: 
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities]  - PlaceholderAPI
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Create & Init Plugin integrations: 
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Register API references
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Loading stored Custom Items
+[19:05:54] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Loading Creative Mode Tabs
+[19:05:54] [Thread-3/INFO] [de.cadentem.cave_dweller.CaveDweller]: Server configuration has been reloaded
+[19:05:54] [Thread-3/INFO] [de.cadentem.cave_dweller.CaveDweller]: Server configuration has been reloaded
+[19:05:54] [Server thread/INFO] [Puzzles Lib]: Loading server config for mutantmonsters
+[19:05:54] [Thread-3/INFO] [Puzzles Lib]: Reloading server config for mutantmonsters
+[19:05:54] [Thread-3/INFO] [Puzzles Lib]: Reloading server config for mutantmonsters
+[19:05:54] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[19:05:54] [Server thread/INFO] [Puzzles Lib]: Loading server config for barteringstation
+[19:05:55] [Server thread/INFO] [Framework]: Loading server configs...
+[19:05:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[19:05:56] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager]: Dragon is now in phase Hover (#10) on the server
+[19:06:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[19:06:01] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:01] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:01] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:02] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:02] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:04] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:04] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:04] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:05] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:05] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
+[19:06:06] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:06] [Server thread/INFO] [com.cupboard.Cupboard]: Loaded config for: brutalbosses.json
+[19:06:06] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 22%
+[19:06:07] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 59%
+[19:06:07] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 6953 ms
+[19:06:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:moon
+[19:06:09] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:09] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:09] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:09] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:13] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 39%
+[19:06:13] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 6290 ms
+[19:06:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mercury_orbit
+[19:06:14] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:14] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:14] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:15] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:16] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 6%
+[19:06:16] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 11%
+[19:06:16] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 86%
+[19:06:16] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3043 ms
+[19:06:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:moon_orbit
+[19:06:17] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:17] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:17] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:18] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:18] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 39%
+[19:06:19] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2328 ms
+[19:06:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension aether:the_aether
+[19:06:19] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:19] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:20] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:20] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:21] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:21] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 52%
+[19:06:22] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2835 ms
+[19:06:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[19:06:22] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:22] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:23] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:23] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:24] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 29%
+[19:06:24] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2255 ms
+[19:06:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mercury
+[19:06:24] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:24] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
+[19:06:26] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:26] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 22%
+[19:06:27] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2845 ms
+[19:06:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:venus_orbit
+[19:06:27] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:27] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:28] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:28] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 47%
+[19:06:29] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2160 ms
+[19:06:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:earth_orbit
+[19:06:29] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:30] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 2%
+[19:06:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 17%
+[19:06:31] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 68%
+[19:06:31] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2128 ms
+[19:06:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension twilightforest:twilight_forest
+[19:06:32] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:32] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:32] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:33] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:33] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 10%
+[19:06:34] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 89%
+[19:06:34] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2541 ms
+[19:06:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension deeperdarker:otherside
+[19:06:34] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:34] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:35] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:35] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:36] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 73%
+[19:06:36] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2104 ms
+[19:06:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:venus
+[19:06:36] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:36] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:37] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:37] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 31%
+[19:06:38] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1973 ms
+[19:06:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension voidscape:void
+[19:06:38] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:38] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:39] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:39] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:40] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:40] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 17%
+[19:06:41] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 88%
+[19:06:41] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3047 ms
+[19:06:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mars
+[19:06:41] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:41] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 9%
+[19:06:43] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 33%
+[19:06:43] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2405 ms
+[19:06:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mars_orbit
+[19:06:44] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:44] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:44] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:45] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 97%
+[19:06:45] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1509 ms
+[19:06:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:glacio
+[19:06:45] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:45] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:46] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:46] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 5%
+[19:06:47] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 34%
+[19:06:47] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2406 ms
+[19:06:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:glacio_orbit
+[19:06:48] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:48] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:48] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:49] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[19:06:49] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 32%
+[19:06:49] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2177 ms
+[19:06:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[19:06:50] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:50] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:50] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:51] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[19:06:51] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 3%
+[19:06:52] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 12%
+[19:06:52] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 34%
+[19:06:53] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3438 ms
+[19:06:53] [Server thread/INFO] [me.velocity6.adminfun.AdminFun]: [AdminFun] Enabling AdminFun v2.7.1
+[19:06:53] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit]: [Chunky] Enabling Chunky v1.3.92
+[19:06:53] [Server thread/INFO] [gg.playit.minecraft.PlayitBukkit]: [playit-gg] Enabling playit-gg v0.1.4
+[19:06:54] [Thread-19/INFO] [gg.playit.minecraft.PlayitKeysSetup]: secret key found, checking
+[19:06:54] [Thread-19/INFO] [gg.playit.minecraft.PlayitKeysSetup]: check secret
+[19:06:54] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[19:06:54] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Loading base translations from "en_us"
+[19:06:54] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Loading specified translations from "en_us"
+[19:06:54] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Registering commands...
+[19:06:54] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Registering listeners...
+[19:06:54] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Using 1.12+ map captcha renderer
+[19:06:54] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[19:06:55] [Thread-19/INFO] [gg.playit.minecraft.PlayitKeysSetup]: found minecraft java tunnel: david-liver.gl.joinmc.link
+[19:06:55] [Thread-19/INFO] [gg.playit.minecraft.PlayitManager]: keys and tunnel setup
+[19:06:55] [Thread-19/WARN] [gg.playit.control.ChannelSetup]: Got IO error working with :control.playit.gg/2602:fbaf:810:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[19:06:55] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[19:06:55] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: mohist [1.20.1]
+[19:06:55] [Server thread/INFO] [com.mohistmc.MohistMC]: Hook PlaceholderAPI!
+[19:06:55] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] init PAPI event
+[19:06:55] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Enabled plugin integration for PlaceholderAPI
+[19:06:55] [Server thread/INFO] [xyz.joscodes.playerheadsdrop.PlayerHeadDrops]: [PlayerHeadDrops] Enabling PlayerHeadsDrop v1.0-SNAPSHOT
+[19:06:55] [Server thread/INFO] [xyz.joscodes.playerheadsdrop.PlayerHeadDrops]: [PlayerHeadDrops] Player Heads Drop Enabled!
+[19:06:55] [Server thread/INFO] [com.booksaw.betterTeams.Main]: [BetterTeams] Enabling BetterTeams v4.8.4
+[19:06:55] [Thread-19/INFO] [gg.playit.control.ChannelSetup]: request queued, waiting 1 second before resend
+[19:06:55] [Server thread/INFO] [Minecraft]: [BetterTeams] Checking if the file messages.yml is up to date
+[19:06:55] [Server thread/INFO] [Minecraft]: [BetterTeams] File is up to date
+[19:06:55] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.8.4]
+[19:06:55] [Server thread/INFO] [Minecraft]: Display team name config value: prefix
+[19:06:55] [Server thread/INFO] [Minecraft]: Loading below name. Type: PREFIX
+[19:06:55] [Server thread/INFO] [Minecraft]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@3e8bfc9f
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Enabling Slimefun vRC - 35 (git 5e901972)
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] ====================================================
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Slimefun works better if you use Paper 
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  as your server software. 
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]   
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Paper offers significant performance improvements,
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  bug fixes, security enhancements and optional
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  features for server owners to enhance their server.
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]   
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Paper includes Timings v2, which is significantly
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  better at diagnosing lag problems over v1.
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]   
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  All of your plugins should still work, and the
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Paper community will gladly help you fix any issues.
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]   
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Join the Paper Community @ https://papermc.io
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] ====================================================
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Creating directories...
+[19:06:55] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading language files...
+[19:06:56] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded language "en"
+[19:06:56] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Available languages: en, de, fr, it, es, ru, uk, sv, cs, bg, pt-BR, hu, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, th, tl
+[19:06:56] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Starting Auto-Updater...
+[19:06:56] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading GEO-Resources...
+[19:06:56] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Tags...
+[19:06:56] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading items...
+[19:06:57] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading researches...
+[19:06:57] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Wiki pages...
+[19:06:57] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Registering listeners...
+[19:06:57] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Third-Party plugin integrations...
+[19:06:57] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Hooked into Plugin: PlaceholderAPI v2.11.5
+[19:06:57] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: slimefun [RC - 35 (git 5e901972)]
+[19:06:57] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Slimefun has finished loading in 2.3s
+[19:06:57] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Enabling Essentials v2.21.0-dev+67-622c814
+[19:06:58] [Server thread/ERROR] [Essentials]: You are running a server that does not properly support Bukkit plugins. Bukkit plugins should not be used with Forge/Fabric mods! For Forge: Consider using ForgeEssentials, or SpongeForge + Nucleus.
+[19:06:58] [Server thread/INFO] [Essentials]: Status determining class: brand:Mohist
+[19:06:59] [Server thread/INFO] [Essentials]: Attempting to convert old kits in config.yml to new kits.yml
+[19:06:59] [Server thread/INFO] [Essentials]: No kits found to migrate.
+[19:06:59] [Server thread/INFO] [Essentials]: Loaded 39095 items from items.json.
+[19:06:59] [Server thread/INFO] [Essentials]: Using locale en
+[19:06:59] [Server thread/INFO] [Essentials]: ServerListPingEvent: Spigot iterator API
+[19:06:59] [Server thread/INFO] [Essentials]: Starting Metrics. Opt-out using the global bStats config.
+[19:06:59] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy hooked.
+[19:06:59] [Server thread/INFO] [Essentials]: Using Vault based permissions (LuckPerms)
+[19:06:59] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+67-622c814
+[19:06:59] [Server thread/INFO] [EssentialsChat]: Starting Metrics. Opt-out using the global bStats config.
+[19:06:59] [Server thread/INFO] [io.github.thebusybiscuit.exoticgarden.ExoticGarden]: [ExoticGarden] Enabling ExoticGarden vDEV - 78 (git 7f9a5f63)
+[19:06:59] [Server thread/INFO] [io.github.thebusybiscuit.exoticgarden.ExoticGarden]: [ExoticGarden] ====================================================
+[19:06:59] [Server thread/INFO] [io.github.thebusybiscuit.exoticgarden.ExoticGarden]: [ExoticGarden]  ExoticGarden works better if you use Paper 
+[19:06:59] [Server thread/INFO] [io.github.thebusybiscuit.exoticgarden.ExoticGarden]: [ExoticGarden]  as your server software. 
+[19:06:59] [Server thread/INFO] [io.github.thebusybiscuit.exoticgarden.ExoticGarden]: [ExoticGarden] ====================================================
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Enabling CustomCrafting v4.16.8.5
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting]     Version      | v4.16.8.5
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting]     WolfyUtils   | v4.16.14.1
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting]     Bukkit       | 1.20.1-580 (MC: 1.20.1)(API: 1.20.1-R0.1-SNAPSHOT)
+[19:07:00] [Server thread/INFO] [NBTAPI]: [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[19:07:00] [Server thread/INFO] [NBTAPI]: [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[19:07:00] [Server thread/INFO] [NBTAPI]: [NBTAPI] Using the plugin 'WolfyUtilities' to create a bStats instance!
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] 
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Omarlatif, Nat R, Junye Zhou, Mithran, Teddy, Invictus_Vulpes 
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Luuk Musch, WizardOfWit, Lumi Server, fioxu, Green Masks
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] ------------------------------------------------------------------------
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Registering PlaceHolder
+[19:07:00] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: customcrafting [4.16.8.5]
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Data destination: LOCAL
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Initiating Inventory GUIs
+[19:07:00] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Register ItemCreator Tabs
+[19:07:00] [Server thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Loading Recipes & Items
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] - - - - [Local Storage] - - - -
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Looking through data folder...
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loading Items
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loading Recipes
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loaded 2 recipes; Skipped: 0 error/s, 0 already existing
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL_OLD] Loaded 0 recipes; Skipped: 0 error/s, 0 already existing
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL_LEGACY] Loaded 0 recipes; Skipped: 0 error/s, 0 already existing
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loaded 2 recipes
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] 
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Indexing Recipe Book...
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Indexed Recipe Book!
+[19:07:01] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] ------------------------------------------------------------------------
+[19:07:01] [Server thread/INFO] [pers.xanadu.slimefunrecipe.Main]: [SlimeFunRecipe] Enabling SlimeFunRecipe v1.2.0
+[19:07:01] [Server thread/INFO] [Console]: [SlimefunRecipe] Enabling plugin...
+[19:07:01] [Server thread/INFO] [Console]: [SlimefunRecipe] Author: Xanadu13
+[19:07:01] [CC-update-check/WARN] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Your version is outdated! There is a new version available! Download it here: https://www.spigotmc.org/resources/55883/
+[19:07:01] [Server thread/INFO] [Console]: [SlimefunRecipe] Language: English
+[19:07:01] [Server thread/INFO] [Console]: [SlimefunRecipe] Successfully load 0 recipe(s).
+[19:07:01] [Server thread/INFO] [Console]: [SlimefunRecipe] Checking update...
+[19:07:01] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[19:07:01] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[19:07:01] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:07:01] [Server thread/INFO] [Console]: 0 placeholder hook(s) registered!
+[19:07:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (67.026s)! For help, type "help"
+[19:07:01] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[19:07:01] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[19:07:01] [Server thread/INFO] [net.stardustlabs.incendium.Incendium]: Thanks for choosing Incendium!
+[19:07:02] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[19:07:02] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[19:07:02] [Server thread/INFO] [patchouli]: Sending reload packet to clients
+[19:07:02] [Server thread/WARN] [voicechat]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[19:07:02] [Server thread/INFO] [voicechat]: [voicechat] Using the Minecraft servers port as voice chat port
+[19:07:02] [VoiceChatServerThread/INFO] [voicechat]: [voicechat] Voice chat server started at port 25565
+[19:07:02] [Craft Scheduler Thread - 3/WARN] [Minecraft]: [BetterTeams] An update for BetterTeams has been released. Update here (https://www.spigotmc.org/resources/better-teams.17129/)
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Now running MetricsModule build #29
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] with a total of 19/19 chart(s)!
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Metrics build #29 started.
+[19:07:02] [Craft Scheduler Thread - 4/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Slimefun is already up to date!
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Collecting Snapshots of all Recipes...
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Found 12,000 Recipes!
+[19:07:02] [Server thread/INFO] [Console]: 
+[19:07:02] [Server thread/INFO] [Console]: ######################### - Slimefun vRC - 35 (git 5e901972) - #########################
+[19:07:02] [Server thread/INFO] [Console]: 
+[19:07:02] [Server thread/INFO] [Console]: Successfully loaded 813 Items and 258 Researches
+[19:07:02] [Server thread/INFO] [Console]: ( 549 Items from Slimefun, 264 Items from 2 Addons )
+[19:07:02] [Server thread/INFO] [Console]: 
+[19:07:02] [Server thread/INFO] [Console]: Slimefun is an Open-Source project that is kept alive by a large community.
+[19:07:02] [Server thread/INFO] [Console]: Consider helping us maintain this project by contributing on GitHub!
+[19:07:02] [Server thread/INFO] [Console]: 
+[19:07:02] [Server thread/INFO] [Console]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[19:07:02] [Server thread/INFO] [Console]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[19:07:02] [Server thread/INFO] [Console]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[19:07:02] [Server thread/INFO] [Console]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[19:07:02] [Server thread/INFO] [Console]:  - Discord:      https://discord.gg/slimefun
+[19:07:02] [Server thread/INFO] [Console]: 
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "world"
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Ignoring duplicate block @ -1,385, 74, 577 (PLUM -> PEACH_SAPLING)
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Ignoring duplicate block @ -87, 74, 621 (ORANGE_SAPLING -> PLUM)
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Ignoring duplicate block @ -87, 74, 625 (ORANGE_SAPLING -> PLUM)
+[19:07:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Ignoring duplicate block @ -86, 75, 623 (ORANGE_SAPLING -> PLUM)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Ignoring duplicate block @ -97, 73, 516 (LEMON -> PEACH_SAPLING)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 391ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 30,010 Blocks for World "world"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Avg: 0.01ms/Block
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "moon"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "moon"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "mercury_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "mercury_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "moon_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "moon_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "the_aether"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "the_aether"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "DIM1"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "DIM1"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "mercury"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "mercury"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "venus_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "venus_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "earth_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "earth_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "twilight_forest"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "twilight_forest"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "otherside"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "otherside"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "venus"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "venus"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "void"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "void"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "mars"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "mars"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "mars_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "mars_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "glacio"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "glacio"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "glacio_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "glacio_orbit"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "DIM-1"
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[19:07:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "DIM-1"
+[19:07:03] [Server thread/INFO] [dough: protection]: Loading Protection Modules...
+[19:07:03] [Server thread/INFO] [dough: protection]: This may happen more than once.
+[19:07:03] [Server thread/INFO] [Essentials]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] ------------------------------------------------------------------------
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Loading Recipes & Items
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] - - - - [Local Storage] - - - -
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Looking through data folder...
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loading Items
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loading Recipes
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loaded 0 recipes; Skipped: 0 error/s, 2 already existing
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL_OLD] Loaded 0 recipes; Skipped: 0 error/s, 0 already existing
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL_LEGACY] Loaded 0 recipes; Skipped: 0 error/s, 0 already existing
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loaded 2 recipes
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] 
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Indexing Recipe Book...
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Indexed Recipe Book!
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] ------------------------------------------------------------------------
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] ------------------------------------------------------------------------
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Loading Recipes & Items
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] - - - - [Local Storage] - - - -
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Looking through data folder...
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loading Items
+[19:07:03] [Craft Scheduler Thread - 4/INFO] [Essentials]: Fetching version information...
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loading Recipes
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loaded 0 recipes; Skipped: 0 error/s, 2 already existing
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL_OLD] Loaded 0 recipes; Skipped: 0 error/s, 0 already existing
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL_LEGACY] Loaded 0 recipes; Skipped: 0 error/s, 0 already existing
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] [LOCAL] Loaded 2 recipes
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] 
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Indexing Recipe Book...
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Indexed Recipe Book!
+[19:07:03] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] ------------------------------------------------------------------------
+[19:07:03] [Craft Scheduler Thread - 6/INFO] [net.milkbowl.vault.Vault]: [Vault] Checking for Updates ... 
+[19:07:03] [Craft Scheduler Thread - 1/INFO] [io.github.thebusybiscuit.exoticgarden.ExoticGarden]: [ExoticGarden] ExoticGarden is already up to date!
+[19:07:03] [Craft Scheduler Thread - 2/INFO] [Console]: [SlimefunRecipe] You are using the latest version (v1.2.0)...
+[19:07:03] [Craft Scheduler Thread - 6/INFO] [net.milkbowl.vault.Vault]: [Vault] No new version available
+[19:07:03] [Craft Scheduler Thread - 4/WARN] [Essentials]: You're 4 EssentialsX dev build(s) out of date!
+[19:07:03] [Craft Scheduler Thread - 4/WARN] [Essentials]: Download it here: https://essentialsx.net/downloads.html
+[19:07:03] [Server thread/INFO] []: Finalizing energy item registration
+[19:07:03] [Server thread/INFO] []: Finalizing fluid item registration
+[19:07:20] [Thread-19/INFO] [gg.playit.minecraft.PlayitManager]: got new client: NewClient{connectAddr=147.185.221.18:46057, peerAddr=187.139.174.16:62028, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 18, -77, -23, -69, -117, -82, 16, -14, 76, -4, 127, -72, 88, -85, 8, 101, -21, 97, -24, 0, 0, 0, 0, 0, 5, -74, -55, 0, 0, 0, 0, 0, 46, -63, 97, -45, 88, -85, 8, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 45, -80, 57, -45, -97, 104, -46, -18, 32, -112, -70, 127, -98, 103, -2, 115], tunnelServerId=1, dataCenterId=5}
+[19:07:20] [Thread-19/INFO] [gg.playit.minecraft.PlayitManager]: starting tcp tunnel for client
+[19:07:20] [Thread-19/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: start connection to /209.25.140.2:43784 to claim client
+[19:07:20] [nioEventLoopGroup-2-1/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: connected to tunnel server, sending claim token
+[19:07:20] [nioEventLoopGroup-2-1/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: claim token sent
+[19:07:21] [nioEventLoopGroup-2-1/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: connection to tunnel server has been established
+[19:07:21] [nioEventLoopGroup-2-1/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[19:07:21] [nioEventLoopGroup-2-1/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: failed to get Minecraft server from Bukkit.getServer()
+[19:07:21] [nioEventLoopGroup-2-1/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: connecting to minecraft server at localhost/127.0.0.1:25565
+[19:07:21] [nioEventLoopGroup-2-2/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: connected to local minecraft server
+[19:07:31] [Thread-19/INFO] [gg.playit.minecraft.PlayitManager]: got new client: NewClient{connectAddr=147.185.221.18:46057, peerAddr=187.139.174.16:17145, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 18, -77, -23, -69, -117, -82, 16, 66, -7, -22, -95, 120, 71, -85, 8, 101, -21, 97, -13, 0, 0, 0, 0, 0, 5, -74, -55, 0, 0, 0, 0, 0, 46, -63, 97, 117, 71, -85, 8, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -95, 18, 77, -35, -70, 104, -20, -100, -83, -41, 46, 55, 60, -3, 111, -66], tunnelServerId=1, dataCenterId=5}
+[19:07:31] [Thread-19/INFO] [gg.playit.minecraft.PlayitManager]: starting tcp tunnel for client
+[19:07:31] [Thread-19/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: start connection to /209.25.140.2:43784 to claim client
+[19:07:31] [nioEventLoopGroup-2-3/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: connected to tunnel server, sending claim token
+[19:07:31] [nioEventLoopGroup-2-3/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: claim token sent
+[19:07:32] [nioEventLoopGroup-2-3/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: connection to tunnel server has been established
+[19:07:32] [nioEventLoopGroup-2-3/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[19:07:32] [nioEventLoopGroup-2-3/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: failed to get Minecraft server from Bukkit.getServer()
+[19:07:32] [nioEventLoopGroup-2-3/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: connecting to minecraft server at localhost/127.0.0.1:25565
+[19:07:32] [nioEventLoopGroup-2-4/INFO] [gg.playit.minecraft.PlayitTcpTunnel]: connected to local minecraft server
+[19:07:33] [Craft Scheduler Thread - 2/ERROR] [dough: skins]: Exception while requesting skin: https://api.mojang.com/users/profiles/minecraft/Nekomitsuki
+[19:07:33] [Craft Scheduler Thread - 4/WARN] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Attempted to refresh skin cache, got this response: ExecutionException: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/Nekomitsuki
+[19:07:33] [Craft Scheduler Thread - 4/WARN] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
+[19:07:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: estevs15 joined the game
+[19:07:49] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: estevs15[/127.0.0.1:57650] logged in with entity id 1271 at ([world]13170.39284479696, 62.76161837573875, 9903.640659158837)
+[19:07:57] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of estevs15 (17)
+[19:07:57] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to estevs15
+[19:08:22] [Server thread/ERROR] [net.minecraft.util.thread.BlockableEventLoop]: Error executing task on Chunk source main thread executor for minecraft:overworld
+net.minecraft.ReportedException: Exception while updating neighbours
+	at net.minecraft.server.level.ChunkMap.m_214912_(ChunkMap.java:682) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:584) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:593) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1017) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1006) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:991) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:908) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: BlockPhysicsEvent cannot be triggered asynchronously from another thread.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:581) ~[forge-1.20.1-47.2.20-universal.jar%23381!/:?]
+	at net.minecraft.world.level.redstone.NeighborUpdater.m_230763_(NeighborUpdater.java:51) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate.m_213563_(CollectingNeighborUpdater.java:107) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_230645_(CollectingNeighborUpdater.java:78) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_230660_(CollectingNeighborUpdater.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_213858_(CollectingNeighborUpdater.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ServerLevel.m_213960_(ServerLevel.java:1163) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.kaboomroads.lostfeatures.worldgen.custom.BadlandsCactusFeature.grow(BadlandsCactusFeature.java:60) ~[LostFeatures-0.7.2.2.1-Forge-1.20.1.jar%23335!/:0.7.2.2.1]
+	at com.kaboomroads.lostfeatures.worldgen.custom.BadlandsCactusFeature.m_142674_(BadlandsCactusFeature.java:39) ~[LostFeatures-0.7.2.2.1-Forge-1.20.1.jar%23335!/:0.7.2.2.1]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.SpinedBuffer$1Splitr.forEachRemaining(SpinedBuffer.java:364) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:377) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:281) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:217) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:667) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23164!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:658) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[19:08:22] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraft.ReportedException: Exception while updating neighbours
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1162) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:344) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:1074) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:904) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: BlockPhysicsEvent cannot be triggered asynchronously from another thread.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:581) ~[forge-1.20.1-47.2.20-universal.jar%23381!/:?]
+	at net.minecraft.world.level.redstone.NeighborUpdater.m_230763_(NeighborUpdater.java:51) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate.m_213563_(CollectingNeighborUpdater.java:107) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_230645_(CollectingNeighborUpdater.java:78) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_230660_(CollectingNeighborUpdater.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_213858_(CollectingNeighborUpdater.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ServerLevel.m_213960_(ServerLevel.java:1163) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.kaboomroads.lostfeatures.worldgen.custom.BadlandsCactusFeature.grow(BadlandsCactusFeature.java:60) ~[LostFeatures-0.7.2.2.1-Forge-1.20.1.jar%23335!/:0.7.2.2.1]
+	at com.kaboomroads.lostfeatures.worldgen.custom.BadlandsCactusFeature.m_142674_(BadlandsCactusFeature.java:39) ~[LostFeatures-0.7.2.2.1-Forge-1.20.1.jar%23335!/:0.7.2.2.1]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.SpinedBuffer$1Splitr.forEachRemaining(SpinedBuffer.java:364) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:377) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:281) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:217) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:667) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23164!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:658) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[19:08:22] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: 	Cause of unexpected exception was
+java.lang.IllegalStateException: BlockPhysicsEvent cannot be triggered asynchronously from another thread.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:581) ~[forge-1.20.1-47.2.20-universal.jar%23381!/:?]
+	at net.minecraft.world.level.redstone.NeighborUpdater.m_230763_(NeighborUpdater.java:51) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate.m_213563_(CollectingNeighborUpdater.java:107) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_230645_(CollectingNeighborUpdater.java:78) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_230660_(CollectingNeighborUpdater.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_213858_(CollectingNeighborUpdater.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ServerLevel.m_213960_(ServerLevel.java:1163) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.kaboomroads.lostfeatures.worldgen.custom.BadlandsCactusFeature.grow(BadlandsCactusFeature.java:60) ~[LostFeatures-0.7.2.2.1-Forge-1.20.1.jar%23335!/:0.7.2.2.1]
+	at com.kaboomroads.lostfeatures.worldgen.custom.BadlandsCactusFeature.m_142674_(BadlandsCactusFeature.java:39) ~[LostFeatures-0.7.2.2.1-Forge-1.20.1.jar%23335!/:0.7.2.2.1]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.SpinedBuffer$1Splitr.forEachRemaining(SpinedBuffer.java:364) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:377) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:281) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:217) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:667) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23164!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:658) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[19:08:22] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod]: Preparing crash report with UUID aa39f814-e202-4751-82c9-22be1673cb2f
+[19:08:22] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /workspaces/codespaces-jupyter/Minecraft-server/./crash-reports/crash-2024-03-08_19.08.22-server.txt
+[19:08:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:08:22] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[19:08:22] [Server thread/INFO] [pers.xanadu.slimefunrecipe.Main]: [SlimeFunRecipe] Disabling SlimeFunRecipe v1.2.0
+[19:08:22] [Server thread/INFO] [me.wolfyscript.customcrafting.CustomCrafting]: [CustomCrafting] Disabling CustomCrafting v4.16.8.5
+[19:08:22] [Server thread/INFO] [io.github.thebusybiscuit.exoticgarden.ExoticGarden]: [ExoticGarden] Disabling ExoticGarden vDEV - 78 (git 7f9a5f63)
+[19:08:22] [Server thread/INFO] [EssentialsChat]: Disabling EssentialsChat v2.21.0-dev+67-622c814
+[19:08:22] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Disabling WolfyUtilities v4.16.14.1
+[19:08:22] [Server thread/INFO] [com.wolfyscript.utilities.bukkit.WolfyCoreBukkit]: [WolfyUtilities] Save stored Custom Items
+[19:08:22] [Server thread/INFO] [Essentials]: Disabling Essentials v2.21.0-dev+67-622c814
+[19:08:22] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy unhooked.
+[19:08:22] [Server thread/ERROR] [Essentials]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[19:08:22] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Disabling Slimefun vRC - 35 (git 5e901972)
+[19:08:22] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Backed up Slimefun data to: 2024-03-08-19-08.zip
+[19:08:22] [Server thread/INFO] [com.booksaw.betterTeams.Main]: [BetterTeams] Disabling BetterTeams v4.8.4
+[19:08:22] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] Disabling ConsoleSpamFix v1.10.0
+[19:08:22] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] Messages hidden since the server started: 0
+[19:08:22] [Server thread/INFO] [net.craftersland.consolefix.CSF]: [ConsoleSpamFix] ConsoleSpamFix is disabled!
+[19:08:22] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Disabling Vault v1.7.3-b131
+[19:08:22] [Server thread/INFO] [xyz.joscodes.playerheadsdrop.PlayerHeadDrops]: [PlayerHeadDrops] Disabling PlayerHeadsDrop v1.0-SNAPSHOT
+[19:08:22] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[19:08:22] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[19:08:22] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] Waiting for queued tasks...
+[19:08:22] [Server thread/INFO] [com.lenis0012.bukkit.loginsecurity.LoginSecurity]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[19:08:22] [Server thread/INFO] [gg.playit.minecraft.PlayitBukkit]: [playit-gg] Disabling playit-gg v0.1.4
+[19:08:22] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit]: [Chunky] Disabling Chunky v1.3.92
+[19:08:22] [Server thread/INFO] [me.velocity6.adminfun.AdminFun]: [AdminFun] Disabling AdminFun v2.7.1
+[19:08:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Disabling LuckPerms v5.4.117
+[19:08:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Starting shutdown process...
+[19:08:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Closing storage...
+[19:08:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Goodbye!
+[19:08:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:08:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: estevs15 lost connection: Server closed
+[19:08:23] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client estevs15
+[19:08:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: estevs15 left the game.
+[19:08:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:08:23] [Thread-19/INFO] [gg.playit.minecraft.PlayitManager]: control channel shutdown
+[19:08:34] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Exception stopping the server
+java.util.concurrent.CompletionException: net.minecraft.ReportedException: Exception while updating neighbours
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1159) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: net.minecraft.ReportedException: Exception while updating neighbours
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:684) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23164!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:658) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	... 11 more
+Caused by: java.lang.IllegalStateException: BlockPhysicsEvent cannot be triggered asynchronously from another thread.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:581) ~[forge-1.20.1-47.2.20-universal.jar%23381!/:?]
+	at net.minecraft.world.level.redstone.NeighborUpdater.m_230763_(NeighborUpdater.java:51) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate.m_213563_(CollectingNeighborUpdater.java:107) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_230645_(CollectingNeighborUpdater.java:78) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_230660_(CollectingNeighborUpdater.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.redstone.CollectingNeighborUpdater.m_213858_(CollectingNeighborUpdater.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ServerLevel.m_213960_(ServerLevel.java:1163) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.kaboomroads.lostfeatures.worldgen.custom.BadlandsCactusFeature.grow(BadlandsCactusFeature.java:60) ~[LostFeatures-0.7.2.2.1-Forge-1.20.1.jar%23335!/:0.7.2.2.1]
+	at com.kaboomroads.lostfeatures.worldgen.custom.BadlandsCactusFeature.m_142674_(BadlandsCactusFeature.java:39) ~[LostFeatures-0.7.2.2.1-Forge-1.20.1.jar%23335!/:0.7.2.2.1]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.SpinedBuffer$1Splitr.forEachRemaining(SpinedBuffer.java:364) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:377) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:281) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:217) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:667) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%23164!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:658) ~[server-1.20.1-20230612.114412-srg.jar%23376!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	... 11 more
+[19:08:34] [Server thread/INFO] [Framework]: Unloading server configs...
+[19:08:34] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
